@@ -1,0 +1,13 @@
+package exemplos;
+
+public class ExemploWhile {
+
+	public static void main(String[] args) {
+		int cont=1;
+}
+		do {
+			System.out.println(cont);
+			cont++;
+		} while (cont <= 10);
+	}
+}

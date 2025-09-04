@@ -1,0 +1,23 @@
+package exemplos;
+
+public class TesteConta {
+
+	public static void main(String[] args) {
+		
+		// Criação de instancia
+		Conta conta1 = new Conta();
+		conta1.numero = 123;
+		conta1.titular = "Adryan";
+		conta1.saldo = 1000.0;
+		
+		conta1.deposito(200.0);
+		
+		if (conta1.saque(100.0))
+			System.out.println("Saque efetuado!");
+		else
+			System.out.println("Saque não efetuado!");
+		
+		System.out.println("Saldo Atual:" + conta1.saldo);
+	}
+
+}
