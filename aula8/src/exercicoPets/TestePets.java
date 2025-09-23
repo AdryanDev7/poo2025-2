@@ -16,7 +16,7 @@ public class TestePets {
 		int opcao = 0;
 
 		do {
-			System.out.println("\n===== MENU DA LOJA DE PETS =====");
+			System.out.println("\n===== LOJA DE PETS =====");
 			System.out.println("1. Adicionar um novo animal");
 			System.out.println("2. Listar animais para adoção");
 			System.out.println("3. Adotar um animal");

@@ -9,7 +9,6 @@ public class TesteExeptions {
 		}catch (ArithmeticException e) {
 			System.out.println("Vc dividiu um numero por zero!");
 		}
-		
 	}
 
 	public static int calcular(int a, int b) {
